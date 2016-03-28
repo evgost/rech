@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Rech",
+        "description": "Extension name."
+    },
+    "extDescription": {
+        "message": "Assistance in reading web content with artifial human voice.",
+        "description": "Extension description."
+    }
+}

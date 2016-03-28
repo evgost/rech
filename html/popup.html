@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Watchman Monitoring</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body id="wm-body">
+    <article id="wm-main">
+        <img src="../images/logo-long.png" width="247" alt="Watchman Monitoring Logo">
+    </article>
+
+    <article id="wm-controls">
+        <div>
+            <label>Email</label>
+            <section id="wm-error"></section>
+            <input id="wm-input" type="text" value="">
+        </div>
+        <div>
+            <button id="wm-btn"> search </button>
+        </div>
+    </article>
+
+    <article id="wm-user-info">
+            <i class="fa fa-undo" id="fa-undo"></i>
+            <div id="wm-header">
+                <div id="name"></div>
+            </div>
+            <div id="wm-data">
+                <dl>
+                    <dt>Admin</dt>
+                    <dd id="admin-page"></dd>
+                    <dt>Subdomain</dt>
+                    <dd id="subdomain"></dd>
+                    <dt>Max Role</dt>
+                    <dd id="user-level"></dd>
+                    <dt>Subscription</dt>
+                    <dd id="subscription-state"></dd>
+                    <dt>Eligible?</dt>
+                    <dd id="eligible-trial" class="bool"></dd>
+                    <dt>Count</dt>
+                    <dd id="computer-count"></dd>
+                    <dt>WinBeta</dt>
+                    <dd id="windows-beta" class="bool"></dd>
+                    <dt>AppleCare</dt>
+                    <dd id="applecare-tracking" class="bool"></dd>
+                    <dt>Branding</dt>
+                    <dd id="custom-branding" class="bool"></dd>
+                    <dt>Email Prefix</dt>
+                    <dd id="subject-prefix"></dd>
+                    <div style="clear:both;" ></div>
+                </dl>
+            </div>
+    </article>
+
+    <script src="../libs/jquery.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+#wm-user-info {
+    font-size: 14px;
+    padding: 15px;
+    background-color: #F9F9F9;
+    background-repeat: no-repeat;
+    background-position: 6% 4%;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/logo.png');
+    min-height: 265px;
+}
+
+#wm-user-info h3 {
+    text-align: center;
+    margin-top: 0;
+}
+#wm-user-info #wm-logo {
+    height: 40px;
+    margin: 0 auto;
+}
+#wm-user-info #name {
+    float: right;
+    min-height: 10px;
+    padding-left: 20%;
+    text-align: left;
+    width: 80%;
+    font-weight: bold;
+}
+
+#wm-error {
+    color: red;
+    float: right;
+}
+
+#wm-user-info #wm-header {
+}
+
+#wm-user-info a {
+    color: #1a6883;
+}
+
+#wm-user-info .fa-check  {
+    color: green;
+}
+
+#wm-user-info #wm-data {
+    clear:both;
+    margin-top: 20%;
+}
+#wm-user-info #wm-data dl {
+    margin-bottom: 0;
+}
+
+#wm-user-info #wm-data dt {
+    float: left;
+    padding-bottom: 5px;
+    clear: left;
+    color: black;
+    width: 40%;
+    text-align: right;
+}
+
+#wm-user-info #wm-data dd {
+    float: left;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 35%;
+    position: relative;
+    left: -10%;
+}
+
+#wm-user-info .bool {
+
+}
