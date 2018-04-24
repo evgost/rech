@@ -1,9 +1,5 @@
-var gmail;
-
-var themagicapikey;
-
 function refresh(f) {
-  if( (/in/.test(document.readyState)) || (undefined === Gmail) ) {
+  if( /in/.test(document.readyState) || undefined === Gmail ) {
     setTimeout('refresh(' + f + ')', 2);
   } else {
     f();
